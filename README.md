@@ -26,6 +26,8 @@ To use it effectively, you should deploy it on a cloud service like Google's <a 
 1. Run the `main.py` Python script in your terminal or IDE.
 2. The project will retrieve the latest flight deals' data for the specified destination and other details using the `Tequila` API.
 3. It will compare the prices with the threshold prices saved in the google spreadsheet.
+![Screenshot (333)](https://github.com/prateekkumaroriginal/Flight-Deal-Finder/assets/89418989/dd23735c-1758-416d-b8e3-b57d9b395393)
+
 4. If the price is lower than the threshold, it will fetch relevant details and send a sms using `Twilio`.
 5. Check your phone for the received SMS alert.
 
